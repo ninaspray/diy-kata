@@ -19,8 +19,4 @@ describe("fizzBuzz", () => {
     expect(fizzBuzz(4)).toBe(4);
     expect(fizzBuzz(17)).toBe(17);
   });
-
-  test("returns NaN when a string is passed through", () => {
-    expect(fizzBuzz("String")).toBe(NaN);
-  });
 });
