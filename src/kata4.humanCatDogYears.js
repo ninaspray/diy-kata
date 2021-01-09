@@ -1,13 +1,13 @@
 const humanCatDogYears = number => {
-    function getages(age, animalage) {
-        const cat = age(number, "cat");
-        const dog = age(number, "dog");
-        const human = age(number);
-        if (animalage === cat) return 24 + ((age - 2) * 4);
-        if (animalage === dog) return 24 + ((age - 2) * 5);
-        return [human, "cat", "dog"];
+    const cat = findAge(number, "cat")
+    const dog = findAge(number, "Dog")
+    return [number, cat, dog];
 
-    }
+    function findAge(human, animal) {
+        human = number;
+        if (animal === "cat") return 24 + ((number - 2) * 4);
+        if (animal === "Dog") return 24 + ((number - 2) * 5);
+    };
 };
 
 
