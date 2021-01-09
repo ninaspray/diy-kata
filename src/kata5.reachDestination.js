@@ -7,3 +7,5 @@ const reachDestination = (distance, speed) => {
 
 
 module.exports = reachDestination;
+
+//if (Time < 0.5) { return "Nearly there" };
