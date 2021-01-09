@@ -1,9 +1,9 @@
 const numberToReversedDigits = number => {
     return number
+        .toString()
         .split("")
         .reverse()
-        .join("")
-
+        .map(element => Number(element));
 };
 
 module.exports = numberToReversedDigits;
@@ -11,3 +11,4 @@ module.exports = numberToReversedDigits;
 
 //number.toString([]).split(",");
 //number.map(number =>)
+//parseInt - 
