@@ -9,3 +9,8 @@ const fizzBuzz = number => {
 
 module.exports = fizzBuzz;
 
+
+
+/* (number%15===0)? console.log('fizzbuzz'): (number%3===0)?     
+console.log('fizz'): (number%5===0)? console.log('buzz'): console.log(number)
+} */

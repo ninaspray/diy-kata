@@ -5,4 +5,7 @@ describe("booleanToWord", () => {
     expect(booleanToWord(true)).toBe("Yes");
     expect(booleanToWord(false)).toBe("No");
   });
+  it("Informs when a boolean hasn't ben passed", () => {
+    expect(booleanToWord()).toBe("Sorry not a Boolean");
+  });
 });
