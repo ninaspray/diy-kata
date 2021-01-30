@@ -7,4 +7,7 @@ describe("humanCatDogYears", () => {
         expect(humanCatDogYears(33)).toStrictEqual([33, 148, 179]);
         expect(humanCatDogYears(1)).toStrictEqual([1, 15, 15]);
     });
+    it("Informs user a number has not been entered", () => {
+        expect(humanCatDogYears("Maggie Cat")).toBe("Please enter a number");
+    });
 });

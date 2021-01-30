@@ -8,6 +8,4 @@ const numberToReversedDigits = number => {
 };
 module.exports = numberToReversedDigits;
 
-
-
 //if (!Number) {return "Numbers have not been entered"};
