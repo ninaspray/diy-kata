@@ -18,5 +18,6 @@ describe("getEmployerRole", () => {
     expect(getEmployerRole("Nina", employees)).toBe("Application Analyst");
     expect(getEmployerRole("Alex", employees)).toBe("Mechanical Engineer");
     expect(getEmployerRole("Maggie", employees)).toBe("House Cat");
+    expect(getEmployerRole("Jenny", employees)).toBe("No longer works here");
   });
 });
